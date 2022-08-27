@@ -24,8 +24,7 @@ function Manager() {
       message: 'What is the team mangers office number?',
     },
   ]).then(Answers => {
-    manager = new Manager(Answers.manager_name, Answers.manager_id, Answers.manager_email, Answers.manager_officenumber);
-    // console.log(manager)
+    var manager = new Manager(Answers.manager_name, Answers.manager_id, Answers.manager_email, Answers.manager_officenumber);
     nextQ();
   });
 }
