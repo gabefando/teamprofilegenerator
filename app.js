@@ -5,7 +5,7 @@ function Manager() {
   inquirer.prompt([
     {
       type: 'input',
-      name: 'mannager_name',
+      name: 'manager_name',
       message: 'What is the team managers name?',
     },
     {
